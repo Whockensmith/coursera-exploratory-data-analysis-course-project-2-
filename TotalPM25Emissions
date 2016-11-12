@@ -1,0 +1,19 @@
+SCC <- readRDS("Source_Classification_Code.rds")Summary
+SCC <- readRDS("summarySCC_PM25.rds")
+CalYearTotals <- aggregate(Emissions ~ year, SummarySCC, sum)
+MScale<-CalYearTotals$Emissions/1000
+png('TotalPM25Emissions.png')
+barplot(height=MScale, names.arg=CalYearTotals$year, xlab="Calendar Year", ylab=expression('Total PM'[2.5]*' Emissions    (x1000)'),main=expression('Total PM'[2.5]*' Emissions By Calendar Year'))
+lbl1999<- CalYearTotals$Emissions[CalYearTotals$year==1999]/1000
+lbl2002<- CalYearTotals$Emissions[CalYearTotals$year==2002]/1000
+lbl2005<- CalYearTotals$Emissions[CalYearTotals$year==2005]/1000
+lbl2008<- CalYearTotals$Emissions[CalYearTotals$year==2008]/1000
+text(.75, lbl1999-200, round(lbl1999,4),col="red")
+text(.75, lbl1999-600, "x 1000",col="red")
+text(2, lbl2002-200, round(lbl2002,4),col="red")
+text(2, lbl2002-600, "x 1000",col="red")
+text(3.2, lbl2005-200, round(lbl2005,4),col="red")
+text(3.2, lbl2005-600, "x 1000",col="red")
+text(4.25, lbl2008-200, round(lbl2008,4),col="red")
+text(4.25, lbl2008-600, "x 1000",col="red")
+dev.off()
