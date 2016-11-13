@@ -17,5 +17,5 @@ text(.75, lbl1999-200, round(lbl1999,4),col="red")
 text(2, lbl2002-200, round(lbl2002,4),col="red")
 text(3.2, lbl2005-200, round(lbl2005,4),col="red")
 text(4.25, lbl2008-200, round(lbl2008,4),col="red")
-## closes the output to the *.png file
+## closes the output to the *.png file 
 dev.off()
