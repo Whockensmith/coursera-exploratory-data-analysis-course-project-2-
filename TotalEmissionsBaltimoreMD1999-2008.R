@@ -14,5 +14,5 @@ graph <- ggplot(CalYearTotalsbyType, aes(year, Emissions, color = type))
 graph <- graph + geom_line() + xlab("Calender") + ylab(expression('Total PM'[2.5]*" Emissions")) + ggtitle('Total Emissions in Baltimore MD from 1999 to 2008')
 ## Completes graph
 print(graph)
-## closes the output to the *.png file 
+## closes the output to the *.png file
 dev.off() 
