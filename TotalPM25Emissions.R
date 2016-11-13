@@ -23,5 +23,5 @@ text(3.2, lbl2005-200, round(lbl2005,4),col="red")
 text(3.2, lbl2005-600, "x 1000",col="red")
 text(4.25, lbl2008-200, round(lbl2008,4),col="red")
 text(4.25, lbl2008-600, "x 1000",col="red")
-## closes the output to the *.png file
+## closes the output to the *.png file 
 dev.off()
