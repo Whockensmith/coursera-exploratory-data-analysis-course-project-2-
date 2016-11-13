@@ -17,13 +17,14 @@ Exploring the National Emissions Inventory database to see what it says about fi
 
 # Answers
 1. Yes.  The total emissions from PM2.5 decreased from 73329667 in 1999 to 34642058 in 2008.
-
+   https://github.com/Whockensmith/coursera-exploratory-data-analysis-course-project-2-/blob/master/TotalPM25Emissions.png
 2. Yes, the emissions have decreased in Baltimore from 3274.18 in 1999 to 1862.2815 in 2008.
-
+  https://github.com/Whockensmith/coursera-exploratory-data-analysis-course-project-2-/blob/master/TotalPM25EmissionBaltimoreMD.png
 3. Betwween 1999 and 2008 NON-Road, On-Road, and NON-Point has decreased.  Point has increased but is in a siqnificant decline.  One more year of data is needed to validate a continuing decline.
-
+  https://github.com/Whockensmith/coursera-exploratory-data-analysis-course-project-2-/blob/master/TotalEmissionBaltimoreMD1999-2008.png
 4. Between 1999 and 2005 little change had happened.  But by 2008 the emissions have decreased by almost 50% since 1999.
-
+  https://github.com/Whockensmith/coursera-exploratory-data-analysis-course-project-2-/blob/master/TotalcoalEmissions1999-2008.png
 5. Between 1999 and 2008 emissions from vehichles (on road) in Baltimore MD have decreased by approximatly 75%.
-
+  https://github.com/Whockensmith/coursera-exploratory-data-analysis-course-project-2-/blob/master/TotalcoalEmissions1999-2008.png
 6. Baltimore has seen a greater reduction between 1999 and 2008 with a steady decrease each year.  LA has had a greater swing in change, but this change has a steady increase from 1999 to 2005.  The drop from 2005 to 2008 was higher then Baltimore's 1999 to 2008 drop.  
+  https://github.com/Whockensmith/coursera-exploratory-data-analysis-course-project-2-/blob/master/TotalEmissionsMotoVehBaltMDvsLosAng1999-2008.png
